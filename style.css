@@ -4,6 +4,10 @@
   font-weight: normal;
   font-style: normal;
 }
+
+html{
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   padding: 0;
@@ -61,12 +65,13 @@ header ul {
 }
 
 
-header li{
+header li, a{
   padding: 10px;
   border-radius: 10px;
   transition: all .3s;
+  color: white;
 }
-header li:hover{
+header a:hover{
   cursor: pointer;
   background-color: #05642d;
   transform: scale(1.05);
